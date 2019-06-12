@@ -1,0 +1,175 @@
+.hidden{
+  display:none !important;
+}
+.App {
+    padding-top:.5em;
+  }
+  
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  body {
+    background:#f2f6f9;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+
+  *{
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.items-holder img{
+    height: 7.5vh;
+}
+
+.items-holder{
+    list-style-type: none;
+    padding:0;
+    /* display:flex; */
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+/* structure */
+.item-list{
+    display: flex;
+    // border-bottom: 1px solid gainsboro;
+    align-items: center;
+    padding: 0.25em .5em ;
+
+  }
+  .deleted-items{
+    padding:1em;
+    background: orange;
+  }
+
+  .item-list-inner{
+    // box-shadow:3px 6px 7px -1px gainsboro;
+    padding:.25em 0;
+    display: flex;
+    background: white;
+    width: 100%;
+    border-radius:7px;
+    
+    .item-list-image{
+      display: flex;
+      width: 33.3vw;
+      // height: 5em;
+      // background:#f2f6f9;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .item-list-name{
+      text-transform: capitalize;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      padding: 1em;
+      width: 33.3vw;
+    }
+    .item-list-action{
+      justify-content: center;
+      align-items: center;
+      width: 33.3vw;
+      display: flex;
+      color:rgb(33, 150, 243);
+    }
+
+  }
+
+.left-icon{
+    width: 25%;
+    display: flex;
+    text-align: center;
+}
+
+.right-icon{
+    width:25%;
+    color: white;
+    display: flex;
+}
+
+.right-icon i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+navbar{
+    display: flex;
+    width: 100%;
+    background: #2196f3;
+}
+
+.title-bar{
+    display: flex;
+    background: #2196F3;
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 1.2em;
+    width: 50%;
+}
+body{
+    margin: 0;
+}
+
+.floating-button{
+    background: cyan;
+    color:white;
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+    z-index: 111;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+  

@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Alcachofa",
+        "image":"/resources/alcachofa.jpg"
+    },
+    {
+        "name": "Apio",
+        "image":"/resources/apio.jpg"
+    },
+    {
+        "name": "Berenjena",
+        "image":"/resources/berenjena.jpg"
+    },
+    {
+        "name": "Brocoli",
+        "image":"/resources/brocoli.jpg"
+    },
+    {
+        "name": "Calabaza",
+        "image":"/resources/calabaza.jpg"
+    },
+    {
+        "name": "Cebolla",
+        "image":"/resources/cebolla.jpg"
+    },
+    {
+        "name": "Chile",
+        "image":"/resources/chile.jpg"
+    },
+    {
+        "name": "Coliflor",
+        "image":"/resources/coliflor.jpg"
+    },
+    {
+        "name": "Guizante",
+        "image":"/resources/guizante.jpg"
+    },
+    {
+        "name": "Maiz",
+        "image":"/resources/maiz.jpg"
+    },
+    {
+        "name": "Papa",
+        "image":"/resources/papa.jpg"
+    },
+    {
+        "name": "Pepinillo",
+        "image":"/resources/pepinillo.jpg"
+    },
+    {
+        "name": "Pimenton",
+        "image":"/resources/pimenton.jpg"
+    },
+    {
+        "name": "Rabano",
+        "image":"/resources/rabano.jpg"
+    },
+    {
+        "name": "Tomate",
+        "image":"/resources/tomate.jpg"
+    },
+    {
+        "name": "Zanahoria",
+        "image":"/resources/zanahoria.jpg"
+    }
+]
